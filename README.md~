@@ -1,0 +1,9 @@
+#Documentaion
+
+[Polymer Docs](http://polymer-project.org)!
+
+##How to Install
+
+```terminal
+meteor add aruntk:polymer
+```
