@@ -20,8 +20,8 @@ _.forEach(bowerCommands, function (command) {
 
 	var dir = path.join(path.relative(process.cwd(), process.env.PWD), 'public/bower_components');
 	var localCache = _.values(Bower.list(null, {offline: true, directory: dir}).pkgMeta.dependencies);
-	if (!_.contains(localCache, 'polymer#0.5.1')){
-		console.log('Installing....');
-		Bower.install(['polymer#0.5.1'], {save: true}, {directory: dir});
+	if (!_.contains(localCache, 'polymer#~0.5.1')){
+		console.log('Installing Polymer....');
+		Bower.install(['polymer#~0.5.1'], {save: true}, {directory: dir});
 	}
 }

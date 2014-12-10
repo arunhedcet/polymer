@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "Google polymer for material design",
-	version: "0.0.1",
+	version: "0.0.5",
 	git: "https://github.com/arunhedcet/polymer.git",
 	name: 'aruntk:polymer'
 });
